@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center items-center flex-col">
-      <h1 className="font-bold text-5xl p-6 mt-5">Apakah membuat UMKM "Worth it" Di Kota Anda?</h1>
+      <h1 className="font-bold text-5xl p-6 mt-5">Apakah membuat UMKM &quot;Worth it&quot; Di Kota Anda?</h1>
       <div className=" flex flex-row justify-evenly p-20">            
         <div className="bg-slate-900 p-20 align-middle">                 
           <p className="text-lg font-medium">Masukkan Nama Kota anda Disini!</p> 
