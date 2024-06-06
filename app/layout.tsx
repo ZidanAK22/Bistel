@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>        
         <Navbar/>
         {children}
+        <p className="text-sm font-light mt-10 mb-5 text-center">Made by 齐丹27 & Dapa</p> 
       </body>
     </html>
   );

@@ -3,6 +3,7 @@ import { Image } from "@nextui-org/react";
 export default function ProductPage () {
     return (
         <div className=" flex flex-row justify-evenly p-20">
+            <h1 className="font-bold text-5xl p-6 mt-5">Pamerkan produk anda disini!</h1>
             <div className="text-center">
                 <Image src="sambel.jpg" width={360}/>
                 <p className="font-bold text-xl mt-3">

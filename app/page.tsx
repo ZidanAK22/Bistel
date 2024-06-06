@@ -48,7 +48,7 @@ export default function Home() {
           <p className="text-lg font-medium">Masukkan Nama Kota anda Disini!</p> 
           <div className="flex flex-row bg-slate-400">                          
             <Input placeholder="Kota Cimahi" className="m-6 p-10 text-black" value={city} onChange={handleCityChange}/>                                
-            <Button className="m-6 p-10 bg-white text-black rounded-lg" variant="bordered" onClick={handleCheck}> Check! </Button>
+            <Button className="m-10 p-5 bg-white text-black rounded-lg" variant="bordered" onClick={handleCheck}> Check! </Button>
           </div>
             {/* <Image src="trend.png" className="m-6"/> */}          
             {prediction && (
@@ -72,8 +72,7 @@ export default function Home() {
         </div>      
       </div>              
       <h1 className="font-bold text-5xl p-6 mt-5">Cek Datanya Langsung!</h1>
-      <iframe width="1200" height="600" src="https://lookerstudio.google.com/embed/reporting/9a6b5a41-f982-40d1-bf5d-6e6718cc07bc/page/xBTrD" frameBorder="0" style={{border:0}} allowFullScreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-      <p className="text-sm font-light mt-5 mb-5">Made by 齐丹27 & Dapa</p> 
+      <iframe width="1200" height="600" src="https://lookerstudio.google.com/embed/reporting/9a6b5a41-f982-40d1-bf5d-6e6718cc07bc/page/xBTrD" frameBorder="0" style={{border:0}} allowFullScreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>      
     </div>
   );
 }
