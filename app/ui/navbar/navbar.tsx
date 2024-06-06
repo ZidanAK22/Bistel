@@ -10,9 +10,14 @@ export default function NavbarCustom () {
             </Link>  
         </NavbarBrand>     
         <NavbarContent className="p-6 m-2 self-end">
-            <NavbarItem>
+            <NavbarItem className="mr-10">
                 <Link href="/products">
                     Products
+                </Link>                                
+            </NavbarItem>
+            <NavbarItem className="mr-10">
+                <Link href="/statistics">
+                    Statistics
                 </Link>
             </NavbarItem>
             {/* <NavbarItem className="ml-6">

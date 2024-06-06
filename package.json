@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@looker/sdk": "^24.8.0",
     "@nextui-org/navbar": "^2.0.27",
     "@nextui-org/react": "^2.2.10",
     "chart.js": "^4.4.2",
