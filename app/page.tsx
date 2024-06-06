@@ -59,18 +59,21 @@ export default function Home() {
         {/* Pretty side boxes */}
         <div className="bg-slate-900">
           <div className="bg-slate-800 p-10 m-6">
-            <p> Growth </p>
-            <Image src="graph.png"/>
+            <p className="font-bold"> Growth </p>
+            <br/>
+            <p>
+            Pertumbuhan UMKM di Jawa Barat menunjukkan perkembangan pesat berkat dukungan pemerintah melalui pelatihan, akses permodalan, dan peningkatan infrastruktur. Adaptasi teknologi digital oleh pelaku UMKM turut meningkatkan daya saing dan ekspansi pasar. Dengan dukungan berkelanjutan, UMKM di Jawa Barat diharapkan terus berkembang dan berkontribusi lebih besar pada perekonomian nasional.
+            </p>
           </div>
-          <div className="bg-slate-800 p-10 m-6">
+          {/* <div className="bg-slate-800 p-10 m-6">
             <p> Profit</p>
             <Image src="graph2.png"/>
-          </div>
+          </div> */}
         </div>      
       </div>              
       <h1 className="font-bold text-5xl p-6 mt-5">Cek Datanya Langsung!</h1>
       <iframe width="1200" height="600" src="https://lookerstudio.google.com/embed/reporting/9a6b5a41-f982-40d1-bf5d-6e6718cc07bc/page/xBTrD" frameBorder="0" style={{border:0}} allowFullScreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-      <p className="text-sm font-light mt-5">Made by 齐丹27 & Dawa</p> 
+      <p className="text-sm font-light mt-5 mb-5">Made by 齐丹27 & Dapa</p> 
     </div>
   );
 }
