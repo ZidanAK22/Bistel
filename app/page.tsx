@@ -18,7 +18,7 @@ export default function Home() {
     }
   
     try {
-      const response = await fetch('https://a8fd-118-96-224-27.ngrok-free.app/predict', {
+      const response = await fetch('https://632e-103-229-14-250.ngrok-free.app/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center flex-col">
       <h1 className="font-bold text-5xl p-6 mt-5">Apakah membuat UMKM &quot;Worth it&quot; Di Kota Anda?</h1>
-      <div className=" flex flex-row justify-evenly p-20">            
+      <div className=" flex flex-row justify-evenly">            
         <div className="bg-slate-900 p-20 align-middle">                 
           <p className="text-lg font-medium">Masukkan Nama Kota anda Disini!</p> 
           <div className="flex flex-row bg-slate-400">                          
