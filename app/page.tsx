@@ -18,7 +18,7 @@ export default function Home() {
     }
   
     try {
-      const response = await fetch('https://632e-103-229-14-250.ngrok-free.app/predict', {
+      const response = await fetch('https://99ad-103-229-14-250.ngrok-free.app/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
